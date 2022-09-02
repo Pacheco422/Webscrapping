@@ -1,24 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[10]:
-
-
-
-
-# In[11]:
-
-
-
-
-
-# In[12]:
-
-
-
-
-# In[86]:
-
 
 import requests 
 from bs4 import BeautifulSoup
@@ -31,11 +13,6 @@ def extract(curso):
 print(extract('pos-graduacao-em-gestao-de-pessoas/p'))
 # essa é a primeira parte do scrapping. Nela a gente vai extrair os dados da página. Ao analisar o comportamento da página, observei que a variável final mudava quando eu clicava nas diferentes letras. Então, fiz uma def  com a variável letras e a coloquei a variável no final.
 #precisava também saber se estava funcionando a url, então coloquei no return para retornar a url. 
-
-# In[76]:
-
-
-
 
 
 # In[84]:
